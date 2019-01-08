@@ -1,0 +1,64 @@
+.main {
+            width: 50%;
+            margin: 50px auto;
+          }
+    .has-search .form-control {
+          padding-left: 2.375rem;
+      }
+
+    .has-search .form-control-feedback {
+      position: absolute;
+      z-index: 2;
+      display: block;
+      width: 2.375rem;
+      height: 2.375rem;
+      line-height: 2.375rem;
+      text-align: center;
+      pointer-events: none;
+      color: #aaa;
+      }
+
+ .pss { position: relative;
+            left: -160px;
+          }
+          .psss{
+            position: relative;
+            left: -120px;
+          }
+.lgl{
+                    font-size: 12px;
+                  }
+ .navbb {
+      position: relative;left: 20px;
+    }
+    .nabvsd {
+      position: relative;
+      left: 200px;
+    }
+.weqq {
+            position: relative;
+            right: 240px;
+          }
+          .bghhh {
+            position: relative;
+            right: 32px;
+          }
+
+
+.circle-icon {
+    background: #ffffff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+.ngnga {
+      position: relative;
+      left: 270px; }
+      .jkjkjk {
+        position: relative;
+        left: 50px;
+      }
