@@ -9,18 +9,24 @@
   <link rel="stylesheet" href="assets/css/all.css">
   <link rel="stylesheet" type="text/css" href="assets/css/navbar.css"/>
   <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
-  <script> $(function () {
-    $('[data-toggle="popover"]').popover()
-  })</script>
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/navbar.js"></script>
+  <script>$(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+  });
+  </script>
 </head>
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
   <a class="navbar-brand" href="#">
     <img src="assets/img/logo.png" width="150" class="d-inline-block align-top img-fluid">
   </a>
   <ul class="navbar-nav mr-auto">
     <li class="nav-item dropdown">
-      <a href="#" class="nav-link" id="Kategori" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="white"><i class="fas fa-tasks"></i>&nbsp; Kategori</a></font>
+      <a href="#" class="nav-link" id="Kategori" data-toggle="dropdown"><font color="white"><i class="fas fa-tasks"></i>Kategori</a></font>
         <ul class="dropdown-menu" aria-labelledby="Kategori">
           <li class="dropdown-item dropdown">
             <a class="dropdown-toggle" id="Tiket" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">E-Voucher & Tiket</a>
@@ -977,10 +983,7 @@
     </div>
 
 
-<script src="assets/js/jquery-3.3.1.slim.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/navbar.js"></script>
+
 
 </body>
 </html>
