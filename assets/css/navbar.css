@@ -32,3 +32,18 @@
     max-height: 400px;
     overflow-x: hidden;
 }
+.scrollable-menu2 {
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+.scrollable-menu3 {
+    height: auto;
+    max-height: 250px;
+    overflow-x: hidden;
+}
+.scrollable-menu4 {
+    height: auto;
+    max-height: 230px;
+    overflow-x: hidden;
+}
