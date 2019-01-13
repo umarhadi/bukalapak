@@ -1,359 +1,377 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Makin Seru Nge-Vlog di Tahun Baru | Bukalapak</title>
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  	<link rel="stylesheet" href="assets/css/all.css">
-  	<link rel="stylesheet" type="text/css" href="assets/css/navbar.css"/>
-  	<link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+  <link rel="stylesheet" href="assets/css/all.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/navbar.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+  <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/navbar.js"></script>
+  <script>$(document).ready(function(){
+      $('[data-toggle="popover"]').popover();   
+  });
+  </script>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
-  <a class="navbar-brand" href="index.html">
-    <img src="assets/img/logo.png" width="150" style="position: relative;left: 20px;" class="d-inline-block align-top">
-  </a>
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item dropdown">
-      <a class="nav-link" id="Kategori" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="position: relative;left: 30px;"><font color="white"><i class="fas fa-tasks"></i>&nbsp; Kategori</a></font>
-        <ul class="dropdown-menu" aria-labelledby="Kategori">
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Tiket" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">E-Voucher & Tiket</a>
-              <ul class="dropdown-menu" aria-labelledby="Tiket">
-                <li class="dropdown-item" href="#"><a><b>E-Voucher & Tiket</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Pulsa Pascabayar</a></li>
-                <li class="dropdown-item" href="#"><a>Paket Data</a></li>
-                <li class="dropdown-item" href="#"><a>Listrik Prabayar</a></li>
-                <li class="dropdown-item" href="#"><a>Listrik Pascabayar</a></li>
-                <li class="dropdown-item" href="#"><a>Voucher Game</a></li>
-                <li class="dropdown-item" href="#"><a>Tiket Kereta</a></li>
-                <li class="dropdown-item" href="#"><a>Tiket Pesawat</a></li>
-                <li class="dropdown-item" href="#"><a>Zakat Profesi</a></li>
-                <li class="dropdown-item" href="#"><a>BPJS Kesehatan</a></li>
-                <li class="dropdown-item" href="#"><a>Air PDAM</a></li>
-                <li class="dropdown-item" href="#"><a>Event</a></li>
-                <li class="dropdown-item" href="#"><a>Tiket Bus</a></li>
-                <li class="dropdown-item" href="#"><a>Kupon</a></li>
-                <li class="dropdown-item" href="#"><a>Angsuran Kredit</a></li>
-                <li class="dropdown-item" href="#"><a>Kartu Kredit</a></li>
-                </font>
-              </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.png" width="150" class="d-inline-block align-top img-fluid">
+        </a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" id="Kategori" data-toggle="dropdown"><font color="white"><i class="fas fa-tasks"></i>&nbsp;Kategori</a></font>
+              <ul class="dropdown-menu" aria-labelledby="Kategori">
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Tiket" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-ticket-alt"></i>&nbsp;E-Voucher & Tiket</a>
+                    <ul class="dropdown-menu" aria-labelledby="Tiket">
+                      <li class="dropdown-item" href="#"><a><b>E-Voucher & Tiket</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Pulsa Pascabayar</a></li>
+                      <li class="dropdown-item" href="#"><a>Paket Data</a></li>
+                      <li class="dropdown-item" href="#"><a>Listrik Prabayar</a></li>
+                      <li class="dropdown-item" href="#"><a>Listrik Pascabayar</a></li>
+                      <li class="dropdown-item" href="#"><a>Voucher Game</a></li>
+                      <li class="dropdown-item" href="#"><a>Tiket Kereta</a></li>
+                      <li class="dropdown-item" href="#"><a>Tiket Pesawat</a></li>
+                      <li class="dropdown-item" href="#"><a>Zakat Profesi</a></li>
+                      <li class="dropdown-item" href="#"><a>BPJS Kesehatan</a></li>
+                      <li class="dropdown-item" href="#"><a>Air PDAM</a></li>
+                      <li class="dropdown-item" href="#"><a>Event</a></li>
+                      <li class="dropdown-item" href="#"><a>Tiket Bus</a></li>
+                      <li class="dropdown-item" href="#"><a>Kupon</a></li>
+                      <li class="dropdown-item" href="#"><a>Angsuran Kredit</a></li>
+                      <li class="dropdown-item" href="#"><a>Kartu Kredit</a></li>
+                      </font>
+                    </ul>
+                </li>
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Perawatan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-paint-brush"></i>&nbsp;Perawatan & Kecantikan</a>
+                    <ul class="dropdown-menu" aria-labelledby="Perawatan">
+                      <li class="dropdown-item" href="#"><a><b>Perawatan & Kecantikan</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Softlens</a></li>
+                      <li class="dropdown-item" href="#"><a>Makeup</a></li>
+                      <li class="dropdown-item" href="#"><a>Perawatan Tubuh</a></li>
+                      <li class="dropdown-item" href="#"><a>Parfum</a></li>
+                      <li class="dropdown-item" href="#"><a>Pelangsing</a></li>
+                      <li class="dropdown-item" href="#">Produk Kecantikan Lainnya<a></a></li>
+                      <li class="dropdown-item" href="#"><a>Hair Care</a></li>
+                    </font>
+      
+                    </ul>
+                </li>
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Kesehatan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-medkit"></i>&nbsp;Kesehatan</a>
+                    <ul class="dropdown-menu" aria-labelledby="Kesehatan">
+                      <li class="dropdown-item" href="#"><a><b>Kesehatan</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Kesehatan Mata</a></li>
+                      <li class="dropdown-item" href="#"><a>Kesehatan Telinga</a></li>
+                      <li class="dropdown-item" href="#"><a>Kesehatan Wanita</a></li>
+                      <li class="dropdown-item" href="#"><a>Obat & Suplemen</a></li>
+                      <li class="dropdown-item" href="#"><a>Alat Kesehatan</a></li>
+                      <li class="dropdown-item" href="#"><a>Produk Kesehatan Lainnya</a></li>
+                      </font>
+      
+                    </ul>
+                </li>
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Wanita" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-female"></i>&nbsp;Fashion Wanita</a>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="Wanita">
+                      <li class="dropdown-item" href="#"><a><b>Fashion Wanita</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Sandal</a></li>
+                      <li class="dropdown-item" href="#"><a>Piyama/Baju Tidur</a></li>
+                      <li class="dropdown-item" href="#"><a>Jumpsuit</a></li>
+                      <li class="dropdown-item" href="#"><a>Jilbab</a></li>
+                      <li class="dropdown-item" href="#"><a>Bahan & Kain</a></li>
+                      <li class="dropdown-item" href="#"><a>Kacamata</a></li>
+                      <li class="dropdown-item" href="#"><a>Topi</a></li>
+                      <li class="dropdown-item" href="#"><a>Kaos</a></li>
+                      <li class="dropdown-item" href="#"><a>Polo Shirt</a></li>
+                      <li class="dropdown-item" href="#"><a>Kemeja, Blouse</a></li>
+                      <li class="dropdown-item" href="#"><a>Dress</a></li>
+                      <li class="dropdown-item" href="#"><a>Baju Muslim & Perlengkapan Sholat</a></li>
+                      <li class="dropdown-item" href="#"><a>Sweater</a></li>
+                      <li class="dropdown-item" href="#"><a>Jaket</a></li>
+                      <li class="dropdown-item" href="#"><a>Bolero, Cardigan</a></li>
+                      <li class="dropdown-item" href="#"><a>Kebaya</a></li>
+                      <li class="dropdown-item" href="#"><a>Rok</a></li>
+                      <li class="dropdown-item" href="#"><a>Legging & Stocking</a></li>
+                      <li class="dropdown-item" href="#"><a>Baju Hamil</a></li>
+                      <li class="dropdown-item" href="#"><a>Bikini</a></li>
+                      <li class="dropdown-item" href="#"><a>Pakaian Dalam, Lingerie</a></li>
+                      <li class="dropdown-item" href="#"><a>Tas Wanita</a></li>
+                      <li class="dropdown-item" href="#"><a>Jam Tangan</a></li>
+                      <li class="dropdown-item" href="#"><a>Jeans</a></li>
+                      <li class="dropdown-item" href="#"><a>Celana</a></li>
+                      <li class="dropdown-item" href="#"><a>Sepatu</a></li>
+                      <li class="dropdown-item" href="#"><a>Sendal</a></li>
+                      <li class="dropdown-item" href="#"><a>Dompet</a></li>
+                      <li class="dropdown-item" href="#"><a>Sarung Tangan</a></li>
+                      <li class="dropdown-item" href="#"><a>Ikat Pinggang</a></li>
+                      <li class="dropdown-item" href="#"><a>Perhiasan & Aksesoris</a></li>
+                      <li class="dropdown-item" href="#"><a>Kaus Kaki</a></li>
+                    </font>
+                    </ul>
+                </li>
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Pria" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-male"></i>&nbsp;Fashion Pria</a>
+                    <ul class="dropdown-menu scrollable-menu" aria-labelledby="Pria">
+                      <li class="dropdown-item" href="#"><a><b>Fashion Pria</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Bahan & Kain</a></li>
+                      <li class="dropdown-item" href="#"><a>Kacamata</a></li>
+                      <li class="dropdown-item" href="#"><a>Topi</a></li>
+                      <li class="dropdown-item" href="#"><a>Kaos</a></li>
+                      <li class="dropdown-item" href="#"><a>PoloShirt</a></li>
+                      <li class="dropdown-item" href="#"><a>Kemeja</a></li>
+                      <li class="dropdown-item" href="#"><a>Jas</a></li>
+                      <li class="dropdown-item" href="#"><a>Sweater</a></li>
+                      <li class="dropdown-item" href="#"><a>Jaket</a></li>
+                      <li class="dropdown-item" href="#"><a>Pakaian Dalam</a></li>
+                      <li class="dropdown-item" href="#"><a>TasPria</a></li>
+                      <li class="dropdown-item" href="#"><a>Jam Tangan</a></li>
+                      <li class="dropdown-item" href="#"><a>Jeans</a></li>
+                      <li class="dropdown-item" href="#"><a>Celana</a></li>
+                      <li class="dropdown-item" href="#"><a>Sepatu</a></li>
+                      <li class="dropdown-item" href="#"><a>Sandal</a></li>
+                      <li class="dropdown-item" href="#"><a>Dompet</a></li>
+                      <li class="dropdown-item" href="#"><a>Sarung Tangan</a></li>
+                      <li class="dropdown-item" href="#"><a>Ikat Pinggang</a></li>
+                      <li class="dropdown-item" href="#"><a>Perhiasan & Aksesoris</a></li>
+                      <li class="dropdown-item" href="#"><a>Kaus Kaki</a></li>
+                      <li class="dropdown-item" href="#"><a>Baju Muslim & Perlengkapan Sholat</a></li>
+                    </font>
+      
+      
+                    </ul>
+                </li>
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Handphone" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-mobile-alt"></i>&nbsp;Handphone</a>
+                    <ul class="dropdown-menu" aria-labelledby="Handphone">
+                      <li class="dropdown-item" href="#"><a><b>HandPhone</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Sparepart & Tools handphone</a></li>
+                      <li class="dropdown-item" href="#"><a>VR(Virtual Reality</a></li>
+                      <li class="dropdown-item" href="#"><a>SmartWatch</a></li>
+                      <li class="dropdown-item" href="#"><a>Hp & Smartphone</a></li>
+                      <li class="dropdown-item" href="#"><a>Tablet</a></li>
+                      <li class="dropdown-item" href="#"><a>Power Bank</a></li>
+                      <li class="dropdown-item" href="#"><a>Headset (EarPhone)</a></li>
+                      <li class="dropdown-item" href="#"><a>Memory Card</a></li>
+                      <li class="dropdown-item" href="#"><a>Kartu Perdana</a></li>
+                     <li class="dropdown-item" href="#"><a>Aksesoris Handphone</a></li>
+                   </font>
+                    </ul>
+                </li>
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Komputer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-desktop"></i>&nbsp;Komputer</a>
+                    <ul class="dropdown-menu" aria-labelledby="Komputer">
+                      <li class="dropdown-item" href="#"><a><b>Komputer</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Hardware</a></li>
+                    <li class="dropdown-item" href="#"><a>Mini PC</a></li>
+                    <li class="dropdown-item" href="#"><a>Desktop</a></li>
+                    <li class="dropdown-item" href="#"><a>Laptop</a></li>
+                    <li class="dropdown-item" href="#"><a>Server</a></li>
+                    <li class="dropdown-item" href="#"><a>Printer</a></li>
+                    <li class="dropdown-item" href="#"><a>Software Original</a></li>
+                    <li class="dropdown-item" href="#"><a>Scanner</a></li>
+                    <li class="dropdown-item" href="#"><a>Monitor</a></li>
+                    <li class="dropdown-item" href="#"><a>Aksesoris</a></li>
+                  </font>
+                    </ul>
+                </li>
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Elektronik" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-microchip"></i>&nbsp;Elektronik</a>
+                    <ul class="dropdown-menu scrollable-menu2" aria-labelledby="Elektronik">
+                      <li class="dropdown-item" href="#"><a><b>Elektronik</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Walkie Talkie</a></li>
+                      <li class="dropdown-item" href="#"><a>Media Player & Set Top Box</a></li>
+                      <li class="dropdown-item" href="#"><a>Komponen</a></li>
+                      <li class="dropdown-item" href="#"><a>Voice Recorder</a></li>
+                      <li class="dropdown-item" href="#"><a>Televisi</a></li>
+                      <li class="dropdown-item" href="#"><a>CD, VCD, DVD, Blu-Ray Player</a></li>
+                      <li class="dropdown-item" href="#">Home Theater<a></a></li>
+                      <li class="dropdown-item" href="#"><a>Portable Audio Player</a></li>
+                      <li class="dropdown-item" href="#"><a>Headphone</a></li>
+                      <li class="dropdown-item" href="#"><a>Speaker</a></li>
+                      <li class="dropdown-item" href="#"><a>Proyektor</a></li>
+                      <li class="dropdown-item" href="#"><a>Radio & Tape</a></li>
+                      <li class="dropdown-item" href="#"><a>Baterai</a></li>
+                      <li class="dropdown-item" href="#"><a>GPS</a></li>
+                      <li class="dropdown-item" href="#"><a>Elektronik Lainnya</a></li>
+                      </font>
+                    </ul>
+                </li>
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Kamera" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-camera"></i>&nbsp;Kamera</a>
+                    <ul class="dropdown-menu scrollable-menu2" aria-labelledby="Kamera">
+                      <li class="dropdown-item" href="#"><a><b>Kamera</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Action Camera</a></li>
+                      <li class="dropdown-item" href="#"><a>Drone</a></li>
+                      <li class="dropdown-item" href="#"><a>Kamera Digital</a></li>
+                      <li class="dropdown-item" href="#"><a>Handycam</a></li>
+                      <li class="dropdown-item" href="#"><a>Kamera Analog</a></li>
+                      <li class="dropdown-item" href="#"><a>CCTV</a></li>
+                      <li class="dropdown-item" href="#"><a>Spy Cam</a></li>
+                      <li class="dropdown-item" href="#"><a>Lensa</a></li>
+                      <li class="dropdown-item" href="#"><a>Flash</a></li>
+                      <li class="dropdown-item" href="#"><a>Baterai</a></li>
+                      <li class="dropdown-item" href="#"><a>Filter</a></li>
+                      <li class="dropdown-item" href="#"><a>Hood & Cap</a></li>
+                      <li class="dropdown-item" href="#"><a>Charger</a></li>
+                      <li class="dropdown-item" href="#"><a>Memory Card</a></li>
+                      <li class="dropdown-item" href="#"><a>Monopod, Tripod, Rig</a></li>
+                      <li class="dropdown-item" href="#"><a>Converter & Adapter</a></li>
+                      <li class="dropdown-item" href="#"><a>Remote & Trigger</a></li>
+                      <li class="dropdown-item" href="#"><a>Tas & Case</a></li>
+                      <li class="dropdown-item" href="#"><a>Strap</a></li>
+                      <li class="dropdown-item" href="#"><a>Perlengkapan Studio</a></li>
+                      <li class="dropdown-item" href="#"><a>Aksesoris Kamera</a></li>
+                      <li class="dropdown-item" href="#"><a>Sparepart Kamera</a></li>
+                      </font>
+                    </ul>
+                </li>
+                <li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Hobi" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-smile"></i>&nbsp;Hobi & Koleksi</a>
+                    <ul class="dropdown-menu" aria-labelledby="Hobi">
+                      <li class="dropdown-item" href="#"><a><b>Hobi & Koleksi</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Batu Cincin</a></li>
+                      <li class="dropdown-item" href="#"><a>Buku</a></li>
+                      <li class="dropdown-item" href="#"><a>Video Game</a></li>
+                      <li class="dropdown-item" href="#"><a>Mainan</a></li>
+                      <li class="dropdown-item" href="#"><a>Musik</a></li>
+                      <li class="dropdown-item" href="#"><a>Koleksi</a></li>
+                      <li class="dropdown-item" href="#"><a>Berkebun</a></li>
+                      <li class="dropdown-item" href="#"><a>Pet Food & Stuff</a></li>
+                    </font>
+                    </ul>
+                </li><li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Olahraga" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-futbol"></i>&nbsp;Olahraga</a>
+                    <ul class="dropdown-menu scrollable-menu3" aria-labelledby="Olahraga">
+                      <li class="dropdown-item" href="#"><a><b>Olahraga</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Surfing & Diving</a></li>
+                      <li class="dropdown-item" href="#"><a>Lari</a></li>
+                      <li class="dropdown-item" href="#"><a>Badminton</a></li>
+                      <li class="dropdown-item" href="#"><a>Renang</a></li>
+                      <li class="dropdown-item" href="#"><a>Pancing</a></li>
+                      <li class="dropdown-item" href="#"><a>Tenis</a></li>
+                      <li class="dropdown-item" href="#"><a>Tenis Meja</a></li>
+                      <li class="dropdown-item" href="#"><a>Sepakbola & Futsal</a></li>
+                      <li class="dropdown-item" href="#"><a>Basket</a></li>
+                      <li class="dropdown-item" href="#"><a>Golf</a></li>
+                      <li class="dropdown-item" href="#"><a>Outdoor</a></li>
+                      <li class="dropdown-item" href="#"><a>Hunting</a></li>
+                      <li class="dropdown-item" href="#"><a>Exercise & Fitness</a></li>
+                      <li class="dropdown-item" href="#"><a>SkateBoard</a></li>
+                      <li class="dropdown-item" href="#"><a>Roller Skate</a></li>
+                      <li class="dropdown-item" href="#"><a>Olahraga Lainnya</a></li>
+                    </font>
+                    </ul>
+                </li><li class="dropdown-item dropdown">
+                  <a class="dropdown-toggle" id="Sepeda" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bicycle"></i>&nbsp;Sepeda</a>
+                    <ul class="dropdown-menu scrollable-menu4" aria-labelledby="Sepeda">
+                      <li class="dropdown-item" href="#"><a><b>Sepeda</b></a></li>
+                      <font style="font-size: 12px;">
+                      <li class="dropdown-item" href="#"><a>Fullbike</a></li>
+                      <li class="dropdown-item" href="#"><a>Frame</a></li>
+                      <li class="dropdown-item" href="#"><a>Fork & Suspension</a></li>
+                      <li class="dropdown-item" href="#"><a>Steering</a></li>
+                      <li class="dropdown-item" href="#"><a>Brake</a></li>
+                      <li class="dropdown-item" href="#"><a>Saddle & Seatpost</a></li>
+                      <li class="dropdown-item" href="#"><a>Drivetrain</a></li>
+                      <li class="dropdown-item" href="#"><a>Wheel (Hub, Rims, Dll</a></li>
+                      <li class="dropdown-item" href="#"><a>Outwear</a></li>
+                      <li class="dropdown-item" href="#"><a>Equipment & Tools</a></li>
+                      <li class="dropdown-item" href="#"><a>Part Generik</a></li>
+                      <li class="dropdown-item" href="#"><a>Nutrition & Energy</a></li>
+                    </font>
+                    </ul>
+                </li>
+             </ul>
           </li>
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Perawatan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Perawatan & Kecantikan</a>
-              <ul class="dropdown-menu" aria-labelledby="Perawatan">
-                <li class="dropdown-item" href="#"><a><b>Perawatan & Kecantikan</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Softlens</a></li>
-                <li class="dropdown-item" href="#"><a>Makeup</a></li>
-                <li class="dropdown-item" href="#"><a>Perawatan Tubuh</a></li>
-                <li class="dropdown-item" href="#"><a>Parfum</a></li>
-                <li class="dropdown-item" href="#"><a>Pelangsing</a></li>
-                <li class="dropdown-item" href="#">Produk Kecantikan Lainnya<a></a></li>
-                <li class="dropdown-item" href="#"><a>Hair Care</a></li>
-              </font>
-
-              </ul>
-          </li>
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Kesehatan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kesehatan</a>
-              <ul class="dropdown-menu" aria-labelledby="Kesehatan">
-                <li class="dropdown-item" href="#"><a><b>Kesehatan</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Kesehatan Mata</a></li>
-                <li class="dropdown-item" href="#"><a>Kesehatan Telinga</a></li>
-                <li class="dropdown-item" href="#"><a>Kesehatan Wanita</a></li>
-                <li class="dropdown-item" href="#"><a>Obat & Suplemen</a></li>
-                <li class="dropdown-item" href="#"><a>Alat Kesehatan</a></li>
-                <li class="dropdown-item" href="#"><a>Produk Kesehatan Lainnya</a></li>
-                </font>
-
-              </ul>
-          </li>
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Wanita" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fashion Wanita</a>
-              <ul class="dropdown-menu" aria-labelledby="Wanita">
-                <li class="dropdown-item" href="#"><a><b>Fashion Wanita</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Sandal</a></li>
-                <li class="dropdown-item" href="#"><a>Piyama/Baju Tidur</a></li>
-                <li class="dropdown-item" href="#"><a>Jumpsuit</a></li>
-                <li class="dropdown-item" href="#"><a>Jilbab</a></li>
-                <li class="dropdown-item" href="#"><a>Bahan & Kain</a></li>
-                <li class="dropdown-item" href="#"><a>Kacamata</a></li>
-                <li class="dropdown-item" href="#"><a>Topi</a></li>
-                <li class="dropdown-item" href="#"><a>Kaos</a></li>
-                <li class="dropdown-item" href="#"><a>Polo Shirt</a></li>
-                <li class="dropdown-item" href="#"><a>Kemeja, Blouse</a></li>
-                <li class="dropdown-item" href="#"><a>Dress</a></li>
-                <li class="dropdown-item" href="#"><a>Baju Muslim & Perlengkapan Sholat</a></li>
-                <li class="dropdown-item" href="#"><a>Sweater</a></li>
-                <li class="dropdown-item" href="#"><a>Jaket</a></li>
-                <li class="dropdown-item" href="#"><a>Bolero, Cardigan</a></li>
-                <li class="dropdown-item" href="#"><a>Kebaya</a></li>
-                <li class="dropdown-item" href="#"><a>Rok</a></li>
-                <li class="dropdown-item" href="#"><a>Legging & Stocking</a></li>
-                <li class="dropdown-item" href="#"><a>Baju Hamil</a></li>
-                <li class="dropdown-item" href="#"><a>Bikini</a></li>
-                <li class="dropdown-item" href="#"><a>Pakaian Dalam, Lingerie</a></li>
-                <li class="dropdown-item" href="#"><a>Tas Wanita</a></li>
-                <li class="dropdown-item" href="#"><a>Jam Tangan</a></li>
-                <li class="dropdown-item" href="#"><a>Jeans</a></li>
-                <li class="dropdown-item" href="#"><a>Celana</a></li>
-                <li class="dropdown-item" href="#"><a>Sepatu</a></li>
-                <li class="dropdown-item" href="#"><a>Sendal</a></li>
-                <li class="dropdown-item" href="#"><a>Dompet</a></li>
-                <li class="dropdown-item" href="#"><a>Sarung Tangan</a></li>
-                <li class="dropdown-item" href="#"><a>Ikat Pinggang</a></li>
-                <li class="dropdown-item" href="#"><a>Perhiasan & Aksesoris</a></li>
-                <li class="dropdown-item" href="#"><a>Kaus Kaki</a></li>
-              </font>
-              </ul>
-          </li>
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Pria" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fashion Pria</a>
-              <ul class="dropdown-menu" aria-labelledby="Pria">
-                <li class="dropdown-item" href="#"><a><b>Fashion Pria</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Bahan & Kain</a></li>
-                <li class="dropdown-item" href="#"><a>Kacamata</a></li>
-                <li class="dropdown-item" href="#"><a>Topi</a></li>
-                <li class="dropdown-item" href="#"><a>Kaos</a></li>
-                <li class="dropdown-item" href="#"><a>PoloShirt</a></li>
-                <li class="dropdown-item" href="#"><a>Kemeja</a></li>
-                <li class="dropdown-item" href="#"><a>Jas</a></li>
-                <li class="dropdown-item" href="#"><a>Sweater</a></li>
-                <li class="dropdown-item" href="#"><a>Jaket</a></li>
-                <li class="dropdown-item" href="#"><a>Pakaian Dalam</a></li>
-                <li class="dropdown-item" href="#"><a>TasPria</a></li>
-                <li class="dropdown-item" href="#"><a>Jam Tangan</a></li>
-                <li class="dropdown-item" href="#"><a>Jeans</a></li>
-                <li class="dropdown-item" href="#"><a>Celana</a></li>
-                <li class="dropdown-item" href="#"><a>Sepatu</a></li>
-                <li class="dropdown-item" href="#"><a>Sandal</a></li>
-                <li class="dropdown-item" href="#"><a>Dompet</a></li>
-                <li class="dropdown-item" href="#"><a>Sarung Tangan</a></li>
-                <li class="dropdown-item" href="#"><a>Ikat Pinggang</a></li>
-                <li class="dropdown-item" href="#"><a>Perhiasan & Aksesoris</a></li>
-                <li class="dropdown-item" href="#"><a>Kaus Kaki</a></li>
-                <li class="dropdown-item" href="#"><a>Baju Muslim & Perlengkapan Sholat</a></li>
-              </font>
-
-
-              </ul>
-          </li>
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Handphone" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Handphone</a>
-              <ul class="dropdown-menu" aria-labelledby="Handphone">
-                <li class="dropdown-item" href="#"><a><b>HandPhone</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Sparepart & Tools handphone</a></li>
-                <li class="dropdown-item" href="#"><a>VR(Virtual Reality</a></li>
-                <li class="dropdown-item" href="#"><a>SmartWatch</a></li>
-                <li class="dropdown-item" href="#"><a>Hp & Smartphone</a></li>
-                <li class="dropdown-item" href="#"><a>Tablet</a></li>
-                <li class="dropdown-item" href="#"><a>Power Bank</a></li>
-                <li class="dropdown-item" href="#"><a>Headset (EarPhone)</a></li>
-                <li class="dropdown-item" href="#"><a>Memory Card</a></li>
-                <li class="dropdown-item" href="#"><a>Kartu Perdana</a></li>
-               <li class="dropdown-item" href="#"><a>Aksesoris Handphone</a></li>
-             </font>
-              </ul>
-          </li>
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Komputer" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Komputer</a>
-              <ul class="dropdown-menu" aria-labelledby="Komputer">
-                <li class="dropdown-item" href="#"><a><b>Komputer</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Hardware</a></li>
-              <li class="dropdown-item" href="#"><a>Mini PC</a></li>
-              <li class="dropdown-item" href="#"><a>Desktop</a></li>
-              <li class="dropdown-item" href="#"><a>Laptop</a></li>
-              <li class="dropdown-item" href="#"><a>Server</a></li>
-              <li class="dropdown-item" href="#"><a>Printer</a></li>
-              <li class="dropdown-item" href="#"><a>Software Original</a></li>
-              <li class="dropdown-item" href="#"><a>Scanner</a></li>
-              <li class="dropdown-item" href="#"><a>Monitor</a></li>
-              <li class="dropdown-item" href="#"><a>Aksesoris</a></li>
-            </font>
-              </ul>
-          </li>
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Elektronik" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Elektronik</a>
-              <ul class="dropdown-menu" aria-labelledby="Elektronik">
-                <li class="dropdown-item" href="#"><a><b>Elektronik</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Walkie Talkie</a></li>
-                <li class="dropdown-item" href="#"><a>Media Player & Set Top Box</a></li>
-                <li class="dropdown-item" href="#"><a>Komponen</a></li>
-                <li class="dropdown-item" href="#"><a>Voice Recorder</a></li>
-                <li class="dropdown-item" href="#"><a>Televisi</a></li>
-                <li class="dropdown-item" href="#"><a>CD, VCD, DVD, Blu-Ray Player</a></li>
-                <li class="dropdown-item" href="#">Home Theater<a></a></li>
-                <li class="dropdown-item" href="#"><a>Portable Audio Player</a></li>
-                <li class="dropdown-item" href="#"><a>Headphone</a></li>
-                <li class="dropdown-item" href="#"><a>Speaker</a></li>
-                <li class="dropdown-item" href="#"><a>Proyektor</a></li>
-                <li class="dropdown-item" href="#"><a>Radio & Tape</a></li>
-                <li class="dropdown-item" href="#"><a>Baterai</a></li>
-                <li class="dropdown-item" href="#"><a>GPS</a></li>
-                <li class="dropdown-item" href="#"><a>Elektronik Lainnya</a></li>
-                </font>
-              </ul>
-          </li>
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Kamera" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kamera</a>
-              <ul class="dropdown-menu" aria-labelledby="Kamera">
-                <li class="dropdown-item" href="#"><a><b>Kamera</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Action Camera</a></li>
-                <li class="dropdown-item" href="#"><a>Drone</a></li>
-                <li class="dropdown-item" href="#"><a>Kamera Digital</a></li>
-                <li class="dropdown-item" href="#"><a>Handycam</a></li>
-                <li class="dropdown-item" href="#"><a>Kamera Analog</a></li>
-                <li class="dropdown-item" href="#"><a>CCTV</a></li>
-                <li class="dropdown-item" href="#"><a>Spy Cam</a></li>
-                <li class="dropdown-item" href="#"><a>Lensa</a></li>
-                <li class="dropdown-item" href="#"><a>Flash</a></li>
-                <li class="dropdown-item" href="#"><a>Baterai</a></li>
-                <li class="dropdown-item" href="#"><a>Filter</a></li>
-                <li class="dropdown-item" href="#"><a>Hood & Cap</a></li>
-                <li class="dropdown-item" href="#"><a>Charger</a></li>
-                <li class="dropdown-item" href="#"><a>Memory Card</a></li>
-                <li class="dropdown-item" href="#"><a>Monopod, Tripod, Rig</a></li>
-                <li class="dropdown-item" href="#"><a>Converter & Adapter</a></li>
-                <li class="dropdown-item" href="#"><a>Remote & Trigger</a></li>
-                <li class="dropdown-item" href="#"><a>Tas & Case</a></li>
-                <li class="dropdown-item" href="#"><a>Strap</a></li>
-                <li class="dropdown-item" href="#"><a>Perlengkapan Studio</a></li>
-                <li class="dropdown-item" href="#"><a>Aksesoris Kamera</a></li>
-                <li class="dropdown-item" href="#"><a>Sparepart Kamera</a></li>
-                </font>
-
-              </ul>
-          </li>
-          <li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Hobi" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hobi & Koleksi</a>
-              <ul class="dropdown-menu" aria-labelledby="Hobi">
-                <li class="dropdown-item" href="#"><a><b>Hobi & Koleksi</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Batu Cincin</a></li>
-                <li class="dropdown-item" href="#"><a>Buku</a></li>
-                <li class="dropdown-item" href="#"><a>Video Game</a></li>
-                <li class="dropdown-item" href="#"><a>Mainan</a></li>
-                <li class="dropdown-item" href="#"><a>Musik</a></li>
-                <li class="dropdown-item" href="#"><a>Koleksi</a></li>
-                <li class="dropdown-item" href="#"><a>Berkebun</a></li>
-                <li class="dropdown-item" href="#"><a>Pet Food & Stuff</a></li>
-              </font>
-              </ul>
-          </li><li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Olahraga" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Olahraga</a>
-              <ul class="dropdown-menu" aria-labelledby="Olahraga">
-                <li class="dropdown-item" href="#"><a><b>Olahrage</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Surfing & Diving</a></li>
-                <li class="dropdown-item" href="#"><a>Lari</a></li>
-                <li class="dropdown-item" href="#"><a>Badminton</a></li>
-                <li class="dropdown-item" href="#"><a>Renang</a></li>
-                <li class="dropdown-item" href="#"><a>Pancing</a></li>
-                <li class="dropdown-item" href="#"><a>Tenis</a></li>
-                <li class="dropdown-item" href="#"><a>Tenis Meja</a></li>
-                <li class="dropdown-item" href="#"><a>Sepakbola & Futsal</a></li>
-                <li class="dropdown-item" href="#"><a>Basket</a></li>
-                <li class="dropdown-item" href="#"><a>Golf</a></li>
-                <li class="dropdown-item" href="#"><a>Outdoor</a></li>
-                <li class="dropdown-item" href="#"><a>Hunting</a></li>
-                <li class="dropdown-item" href="#"><a>Exercise & Fitness</a></li>
-                <li class="dropdown-item" href="#"><a>SkateBoard</a></li>
-                <li class="dropdown-item" href="#"><a>Roller Skate</a></li>
-                <li class="dropdown-item" href="#"><a>Olahraga Lainnya</a></li>
-              </font>
-
-
-              </ul>
-          </li><li class="dropdown-item dropdown">
-            <a class="dropdown-toggle" id="Sepeda" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sepeda</a>
-              <ul class="dropdown-menu" aria-labelledby="Sepeda">
-                <li class="dropdown-item" href="#"><a><b>Sepeda</b></a></li>
-                <font style="font-size: 12px;">
-                <li class="dropdown-item" href="#"><a>Fullbike</a></li>
-                <li class="dropdown-item" href="#"><a>Frame</a></li>
-                <li class="dropdown-item" href="#"><a>Fork & Suspension</a></li>
-                <li class="dropdown-item" href="#"><a>Steering</a></li>
-                <li class="dropdown-item" href="#"><a>Brake</a></li>
-                <li class="dropdown-item" href="#"><a>Saddle & Seatpost</a></li>
-                <li class="dropdown-item" href="#"><a>Drivetrain</a></li>
-                <li class="dropdown-item" href="#"><a>Wheel (Hub, Rims, Dll</a></li>
-                <li class="dropdown-item" href="#"><a>Outwear</a></li>
-                <li class="dropdown-item" href="#"><a>Equipment & Tools</a></li>
-                <li class="dropdown-item" href="#"><a>Part Generik</a></li>
-                <li class="dropdown-item" href="#"><a>Nutrition & Energy</a></li>
-              </font>
-              </ul>
-          </li>
-       </ul>
-    </li>
-  </ul>
- 	<form class="form-inline my-2 my-lg-0" style="position: relative;">
-  <div class="form-group has-search">
-    <span class="fa fa-search form-control-feedback"></span>
-    <input type="text" class="form-control" placeholder="Aku ingin belanja..." style="width: 400px;">
-  </div>
-</div>
-  </form>
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle" id="Cek" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="position: relative;left: 180px;"><font color="white">Lihat Status Transaksi</a></font>
-        <div class="dropdown-menu">
-          <form class="px-4 py-3">
-            <div class="form-group">
-              <input type="text" class="form-control" id="KodePembelian" placeholder="Kode Pembeli">
-            </div>
-            <div class="form-group">
-              <input type="number" class="form-control" id="NomorTransaksi" placeholder="Nomor Transaksi">
-            </div>
-            <button type="submit" class="btn btn-success btn-sm">Cek Status</button>
-          </form>
-          <div class="dropdown-divider"></div>
-          <small class="dropdown-item">Khusus untuk 'Beli tanpa Login'</small>
+        </ul>
+         <form class="form-inline my-2 my-lg-0">
+        <div class="form-group has-search form-inline">
+          <span class="fa fa-search form-control-feedback"></span>
+          <input type="text" class="form-control" placeholder="Aku ingin belanja..." style="width: 400px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
-    </li>
-  </ul>
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><i class="fas fa-cart-arrow-down" style="font-size: 18px; position: relative;left:120px;"></i></a>
-      </li>
-    </ul>
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown" style="position: relative;left: -10px;">
-        <a class="nav-link dropdown-toggle btn btn-sm btn-info" id="Cek" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="position: relative;left: 80px; color: white;">Login</a>
-          <div class="dropdown-menu pss">
-            <form class="px-4 py-3">
-              <div class="form-group">
-                <input type="text" class="form-control" id="EmailLogin" placeholder="Email / Username / Nomor Handphone">
+      </div>
+        </form>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" id="Cek" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="white">Lihat Status Transaksi</a></font>
+              <div class="dropdown-menu">
+                <form class="px-4 py-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="KodePembelian" placeholder="Kode Pembeli">
+                  </div>
+                  <div class="form-group">
+                    <input type="number" class="form-control" id="NomorTransaksi" placeholder="Nomor Transaksi">
+                  </div>
+                  <button type="submit" class="btn btn-success btn-sm">Cek Status</button>
+                </form>
+                <div class="dropdown-divider"></div>
+                <small class="dropdown-item">Khusus untuk 'Beli tanpa Login'</small>
               </div>
-              <div class="form-group">
-                <input type="password" class="form-control" id="PasswordLogin" placeholder="Password">
-              </div>
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                <label class="form-check-label lgl" for="dropdownCheck">Ingat Saya</label>&nbsp;&nbsp;
-                <a href="#" class="lgl">Lupa Password?</a><p>
-              </div>
-              <button type="submit" class="btn btn-info btn-sm btn-block">Sign in</button>
-            </form>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#"><i class="fab fa-facebook text-info"></i>&nbsp; Login dengan Facebook</a>
-            <a class="dropdown-item" href="#"><i class="fab fa-google text-info"></i>&nbsp;Login dengan Google</a>
-          </div>
-      </li>
-    </ul>
+          </li>
+        </ul>
           <ul class="navbar-nav mr-auto">
-            <button type="button" class="btn btn-info btn-sm" style="position: relative;left: 10px;">Daftar</button>
+            <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cart-arrow-down" style="font-size: 18px;"></i></a>
+              <div class="dropdown-menu" style="width:240px;height:260px;">
+                  <h6>&nbsp;&nbsp;Total: 0 Barang</h6>
+                  <div class="dropdown-divider"></div>
+                  <div class="fa-6x">
+                    <center><i class="fas fa-dolly-flatbed text-info"></i></center>
+                  </div>
+                  <center><small class="text-secondary">Belum ada barang ditambahkan</small></center>
+                  <div class="dropdown-divider"></div>
+                  <center><h6>&nbsp;&nbsp;<a href="cart.html">Lihat Keranjang</a></h6></center>
+                </div>
+            </li>
           </ul>
-  </div>
-</nav>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle btn btn-sm btn-info" id="Cek" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">Login</a>
+                <div class="dropdown-menu pss">
+                  <form class="px-4 py-3">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="EmailLogin" placeholder="Email / Username / Nomor Handphone">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" id="PasswordLogin" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                      <label class="form-check-label lgl" for="dropdownCheck">Ingat Saya</label>&nbsp;&nbsp;
+                      <a href="#" class="lgl">Lupa Password?</a><p>
+                    </div>
+                    <button type="submit" class="btn btn-info btn-sm btn-block">Sign in</button>
+                  </form>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#"><i class="fab fa-facebook text-info"></i>&nbsp; Login dengan Facebook</a>
+                  <a class="dropdown-item" href="#"><i class="fab fa-google text-info"></i>&nbsp;Login dengan Google</a>
+                </div>
+            </li>
+          </ul>
+          <div class="row">
+            <div class="col"><a class="btn btn-info btn-sm" href="register.html">Daftar</a> </div>
+          </div>  
+        </div>
+      </nav>
 <nav class="nav" style="background-color: #1491a5;">
   <a style="font-size: 12px; padding-right: 1px;" class="nav-link text-light navbb" href="#">E-Voucher & Tiket</a>
   <a style="font-size: 12px; padding-right: 1px;" class="nav-link text-light navbb" href="#">BukaReksa</a>
@@ -516,20 +534,20 @@
         <button type="button" class="btn btn-outline-secondary btn-block btn-sm"><b>Panduan Keamanan</b></button><p></p>
       </div>
       <div class="col-md-2">
-        <h6 class="text-secondary">Bukalapak</h6>
-          <small>Tentang Bukalapak</small><br>
-          <small>Aturan Penggunaan</small><br>
-          <small>Kebijakan Privasi</small><br>
-          <small>Penghargaan</small><br>
-          <small>Berita & Pengumuman</small><br>
-          <small>Karir di Bukalapak</small><br>
-          <small>Identitas Brand</small><br>
-          <small>Vulnerability Reports</small><br>
-          <small>Blog Bukalapak</small><br>
-          <small>Affilliate Program</small><br>
-          <small>Timnas Indonesia</small><br>
-          <small>FAQ (Tanya Jawab)</small>
-      </div>
+          <h6 class="text-secondary">Bukalapak</h6>
+            <small><a href="about.html">Tentang Bukalapak</a></small><br>
+            <small><a href="terms.html">Aturan Penggunaan</a></small><br>
+            <small><a href="privacy.html">Kebijakan Privasi</a></small><br>
+            <small><a href="about/award.html">Penghargaan</a></small><br>
+            <small>Berita & Pengumuman</small><br>
+            <small>Karir di Bukalapak</small><br>
+            <small>Identitas Brand</small><br>
+            <small>Vulnerability Reports</small><br>
+            <small>Blog Bukalapak</small><br>
+            <small>Affilliate Program</small><br>
+            <small>Timnas Indonesia</small><br>
+            <small>FAQ (Tanya Jawab)</small>
+        </div>
       <div class="col-md-2">
         <h6 class="text-secondary">Pembeli</h6>
           <small>Cara Belanja</small><br>
