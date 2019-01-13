@@ -25,9 +25,6 @@
     <div class="mx-auto" style="width:33%;">
     <input type="text" class="form-control" placeholder="Nama Lengkap"/><p></p>
     <input type="email" class="form-control" placeholder="Email atau Nomor Handphone"/><p></p>
-    </div>
-    
-    <div class="mx-auto" style="width:33%;">
     <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="jk">
         <label class="form-check-label">Laki Laki</label>
@@ -35,9 +32,7 @@
     <div class="form-check form-check-inline">
         <input class="form-check-input" type="radio" name="jk">
         <label class="form-check-label">Perempuan</label>
-    </div>
     </div><p></p>
-    <div class="mx-auto" style="width:33%;">
         <label class="sr-only" for="inlineFormInputGroup">Username</label>
             <div class="input-group mb-2">
               <div class="input-group-prepend">
@@ -45,11 +40,54 @@
               </div>
               <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="">
             </div>
-    <small class="text-secondary">Tuliskan username yang diinginkan</small> 
+    <small class="text-secondary">
+        Tuliskan username yang diinginkan&nbsp;&nbsp;
+        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Username tidak dapat diubah">
+                <i class="fas fa-question-circle" style="pointer-events: none;" disabled></i>
+        </span> 
+    </small><p></p>
+    <input type="password" class="form-control" placeholder="Password Bukalapak"/>
+        <small class="text-secondary">Digunakan untuk pencairan dana dan perubahan data diri</small><p></p>
+    <input type="password" class="form-control" placeholder="Konfirmasi Password Bukalapak"/><p></p>
+    &nbsp;<p></p>
+    <div class="form-check">
+    <input class="form-check-input" type="checkbox">
+        <label class="form-check-label">Saya telah membaca dan menyetujui <a href="" data-toggle="modal" data-target="#AturanPenggunaan">Aturan Penggunaan</a> dan <a href="privacy.html">Kebijakan Privasi</a> Bukalapak</label>
     </div><p></p>
+    <button type="button" class="btn btn-info btn-sm btn-block">Daftar</button>
+    </div>
 
     
 
-    
+    <div class="modal fade bd-example-modal-lg" id="AturanPenggunaan" tabindex="-1" role="dialog" aria-labelledby="Aturan" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="Aturan"><b>Aturan Penggunaan Bukalapak.com</b></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6>Informasi Umum </h6><p></p>
+                    <font style="font-size:15px;">
+                    <ul>
+                        <li>Bukalapak sebagai sarana penunjang bisnis berusaha menyediakan berbagai fitur dan layanan untuk menjamin keamanan dan kenyamanan para penggunanya.</li>
+                        <li>Bukalapak tidak berperan sebagai Pelapak barang, melainkan sebagai perantara antara Pelapak dan Pembeli, untuk mengamankan setiap transaksi yang berlangsung di dalam platform Bukalapak melalui mekanisme Bukalapak Payment System. Adanya biaya ekstra (termasuk pajak dan biaya lainnya) atas segala transaksi yang terjadi di Bukalapak berada di luar kewenangan Bukalapak sebagai perantara, dan akan diurus oleh pihak-pihak yang bersangkutan (baik Pelapak atau pun Pembeli) sesuai ketentuan yang berlaku di Indonesia.</li>
+                        <li>Bukalapak hanya mengizinkan jual beli barang yang bisa dikirim melalui jasa pengiriman (jasa ekspedisi), sehingga jasa dan kerjasama dagang (franchise) tidak dapat diperdagangkan melalui Bukalapak terkecuali ada kerja sama resmi dengan pihak Bukalapak.</li>
+                        <li>Barang-barang yang dapat diperdagangkan di Bukalapak merupakan barang yang tidak tercantum di daftar “Barang Terlarang”.</li>
+                    </ul>
+                    </font>
+                </div>
+              </div>
+            </div>
+    </div>
+
+
+<script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        })
+</script>
 </body>
 </html>
