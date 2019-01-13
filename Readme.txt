@@ -1,0 +1,2 @@
+www.bukalapak.com responsive di versi desktop, maka versi mobile tidak responsive. Karena web bukalapak mempunyai 2 versi yaitu 
+versi mobile (bisa diakses di m.bukalapak.com) dan versi desktop (www.bukalapak.com).
